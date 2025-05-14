@@ -6,7 +6,7 @@
 </head>
 <body>
      <h1>Welcome to ninja network</h1>
-     <p>click the button below to list of ninjas</p>
+     <p>Click the button below to list of ninjas</p>
      <a href="/ninjas" class="btn">Find Ninjas</a>
 </body>
 </html>
