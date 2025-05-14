@@ -12,7 +12,6 @@ Route::get('/ninjas', function () {
         ["name" => "Sasuke", "skill" => 75, "age" => 17, "id" => 2],
         ["name" => "Sakura", "skill" => 85, "age" => 16, "id" => 3],
         ["name" => "Kakashi", "skill" => 95, "age" => 30, "id" => 4],
-        ["name" => "Tobi", "skill" => 55, "age" => 20, "id" => 5]
     ];
 
     return view('ninjas.index' , ["greeting" => "Hello" , "ninjas" => $ninjas]);

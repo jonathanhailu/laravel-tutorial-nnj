@@ -28,11 +28,6 @@
                 {{ $ninjas[3]["name"] }}
             </a>
         </li>
-        <li>
-            <a href="/ninjas/{{ $ninjas[4]["id"] }}">
-                {{ $ninjas[4]["name"] }}
-            </a>
-        </li>
     </ul>
 </body>
 </html>
